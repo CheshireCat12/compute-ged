@@ -28,3 +28,7 @@ python retrieve_graphs.py --dataset MUTAG --root-dataset ./data --folder-results
 ```bash
 python main.py --root-dataset ./graphs/MUTAG --graph-format pkl --alpha 0.4 --n-cores 8
 ```
+
+## Further information
+
+Please refer to [Graph Matching Core](https://github.com/CheshireCat12/graph-matching-core) for furhter information on how to compute GED.
