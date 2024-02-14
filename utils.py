@@ -82,7 +82,6 @@ def _modify_node_type(graph: nx.Graph, node_type=None) -> nx.Graph:
     Returns:
         Modified copy of the graph
     """
-    # TODO: Handle the np.ndarray node attribute
     # TODO: Should the attr_node 'x' be a function parameter?
     node_attr = 'x'
 
