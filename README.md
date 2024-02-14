@@ -21,5 +21,10 @@ pip install -r requirements.txt
 
 #### Retrieve Graphs from TUDataset repository.
 ```bash
-python 
+python retrieve_graphs.py --dataset MUTAG --root-dataset ./data --folder-results ./graphs/MUTAG --graph-format pkl
+```
+
+#### Compute GED
+```bash
+python main.py --root-dataset ./graphs/MUTAG --graph-format pkl --alpha 0.4 --n-cores 8
 ```
